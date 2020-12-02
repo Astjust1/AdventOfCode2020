@@ -32,7 +32,7 @@ fn main() {
 
     println!("{:#?}",first_answer);
 
-    // Part 2 since I cant do matrix subtraction in rust without a library it seems :(
+    // Part 2 
     let mut second_set = HashSet::new();
 
     for unmodded in x.iter() {
