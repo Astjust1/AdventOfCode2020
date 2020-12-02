@@ -23,7 +23,6 @@ fn main() {
     const IMPORTANT_NUMBER:i32 = 2020;
 
     let x: HashSet<i32> = s.lines().map(|a| a.parse::<i32>().unwrap()).collect();
-    let x2: HashSet<_> = x.iter().cloned().collect();
 
     let y: HashSet<i32> = x.iter().map(&|a| (IMPORTANT_NUMBER - a)).collect();
 
